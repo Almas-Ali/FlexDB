@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #23263b;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #5feb9e;
+}
+
+nav ul li a.active {
+    color: #5feb9e;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+main p {
+    text-align: justify;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #000021;
+    background: #1de9b6;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.btn :hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #23263b;
+    color: #fff;
+}
+
+footer p {
+    padding: 4px;
+}
+
+footer p a {
+    color: #5feb9e;
+    text-decoration: none;
+}
